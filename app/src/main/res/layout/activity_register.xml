@@ -16,7 +16,7 @@
         android:text="Registrar-se"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="40sp" />
+        android:textSize="60sp"/>
 
     <EditText
         android:id="@+id/edt_email_register"
@@ -75,22 +75,26 @@
 
     <Button
         android:id="@+id/btn_registrar_register"
-        android:layout_width="380dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
+        android:maxWidth="250dp"
+        android:minWidth="380dp"
         android:background="@drawable/custom_button_register_primary"
         android:text="Registrar"
         android:textColor="@android:color/holo_red_light" />
 
     <Button
         android:id="@+id/btn_login_register"
-        android:layout_width="380dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
+        android:maxWidth="250dp"
+        android:minWidth="380dp"
         android:background="@drawable/custom_button_register_secondary"
         android:text="Login"
         android:textColor="@color/white" />
