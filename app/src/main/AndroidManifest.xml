@@ -10,6 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.S7ven">
         <activity
+            android:name=".ActivityLogin.Redirect_Login_Register"
+            android:exported="true" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login" />
+        <activity
             android:name=".ActivityLogin.Login"
             android:exported="true" />
         <activity
