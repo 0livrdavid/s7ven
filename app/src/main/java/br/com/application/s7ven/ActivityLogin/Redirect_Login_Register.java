@@ -32,7 +32,7 @@ public class Redirect_Login_Register extends AppCompatActivity {
             }
         });
 
-        btn_redict_login.setOnClickListener(new View.OnClickListener() {
+        btn_redict_regist.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Redirect_Login_Register.this, Register.class);
