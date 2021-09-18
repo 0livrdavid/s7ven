@@ -7,6 +7,7 @@
     android:gravity="center"
     android:maxWidth="250dp"
     android:orientation="vertical"
+    android:background="@drawable/background_pattern"
     tools:context=".ActivityLogin.Login">
 
     <ImageView
@@ -15,8 +16,8 @@
         android:layout_height="80dp"
         android:layout_marginBottom="70dp"
         app:srcCompat="@mipmap/logo"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="71dp" />
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="70dp" />
 
     <EditText
         android:id="@+id/edt_email"
@@ -26,11 +27,11 @@
         android:layout_marginRight="25dp"
         android:maxWidth="250dp"
         android:minWidth="380dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/white"
         android:hint="E-mail"
         android:inputType="textEmailAddress"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black" />
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
 
     <EditText
         android:id="@+id/edt_senha"
@@ -41,11 +42,11 @@
         android:layout_marginRight="25dp"
         android:maxWidth="250dp"
         android:minWidth="380dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/white"
         android:hint="Senha"
         android:inputType="textPassword"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black" />
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
 
     <CheckBox
         android:id="@+id/ckb_mostrar_senha"
@@ -53,11 +54,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginRight="100dp"
-        android:buttonTint="@color/black"
+        android:buttonTint="@color/white"
         android:maxWidth="250dp"
         android:minHeight="48dp"
         android:text="Mostrar Senha"
-        android:textColor="@color/black" />
+        android:textColor="@color/white" />
 
 
     <Button

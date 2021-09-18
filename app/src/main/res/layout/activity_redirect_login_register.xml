@@ -1,9 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:maxWidth="250dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_pattern"
     tools:context=".ActivityLogin.Redirect_Login_Register">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="70dp"
+        app:srcCompat="@mipmap/logo"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <Button
+        android:id="@+id/btn_redict_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:maxWidth="250dp"
+        android:minWidth="380dp"
+        android:background="@drawable/custom_button_primary"
+        android:shadowColor="@color/black"
+        android:text="ENTRAR"
+        android:textColor="@android:color/black"
+    />
+
+    <Button
+        android:id="@+id/btn_redict_regist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:maxWidth="250dp"
+        android:minWidth="380dp"
+        android:background="@drawable/custom_button_secondary"
+        android:shadowColor="@color/black"
+        android:text="REGISTRAR"
+        android:textColor="@color/white" />
+
+</LinearLayout>
