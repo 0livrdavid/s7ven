@@ -6,9 +6,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -70,7 +73,25 @@ public class Login extends AppCompatActivity {
             }
         });
 
+        ckb_mostrar_senha.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked){
+                    edt_senha.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                } else {
+                    edt_senha.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                }
+            }
+        });
 
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(Login.this, Redirect_Login_Register.class);
+        startActivity(intent);
+        finish();
     }
 
     private void abrirTelaDashboard(){
