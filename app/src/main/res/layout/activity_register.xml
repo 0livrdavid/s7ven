@@ -79,11 +79,11 @@
         android:id="@+id/btn_registrar_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="35dp"
-        android:minWidth="380dp"
         android:background="@drawable/custom_button_register_primary"
+        android:minWidth="380dp"
         android:text="Registrar"
         android:textColor="@android:color/holo_red_light" />
 
@@ -91,11 +91,11 @@
         android:id="@+id/btn_login_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="35dp"
-        android:minWidth="380dp"
         android:background="@drawable/custom_button_register_secondary"
+        android:minWidth="380dp"
         android:text="Login"
         android:textColor="@color/white" />
 
