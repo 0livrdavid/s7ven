@@ -23,6 +23,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import br.com.application.s7ven.MainBordeless;
 import br.com.application.s7ven.R;
 
 public class Register extends AppCompatActivity {
