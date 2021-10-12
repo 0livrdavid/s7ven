@@ -21,7 +21,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-import br.com.application.s7ven.Dashboard;
+import br.com.application.s7ven.MainBordeless;
 import br.com.application.s7ven.R;
 
 public class Login extends AppCompatActivity {
@@ -95,7 +95,7 @@ public class Login extends AppCompatActivity {
     }
 
     private void abrirTelaDashboard(){
-        Intent intent = new Intent(Login.this, Dashboard.class);
+        Intent intent = new Intent(Login.this, MainBordeless.class);
         startActivity(intent);
         finish();
     }
