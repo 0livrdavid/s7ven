@@ -27,6 +27,7 @@ import br.com.application.s7ven.R;
 public class Login extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
+
     private EditText edt_email;
     private EditText edt_senha;
     private Button btn_login;
