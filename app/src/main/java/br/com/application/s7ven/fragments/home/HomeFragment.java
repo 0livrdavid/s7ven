@@ -1,4 +1,4 @@
-package br.com.application.s7ven.ui.home;
+package br.com.application.s7ven.fragments.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,6 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import br.com.application.s7ven.R;
 import br.com.application.s7ven.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
