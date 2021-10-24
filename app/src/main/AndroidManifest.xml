@@ -10,10 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.S7ven">
         <activity
-            android:name=".MainBordeless"
-            android:exported="false"
-            android:label="@string/title_activity_main_bordeless" />
-        <activity
             android:name=".ActivityLogin.Register"
             android:exported="true" />
         <activity

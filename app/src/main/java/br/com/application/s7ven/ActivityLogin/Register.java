@@ -23,7 +23,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-import br.com.application.s7ven.MainBordeless;
+import br.com.application.s7ven.MainActivity;
 import br.com.application.s7ven.R;
 
 public class Register extends AppCompatActivity {
@@ -122,7 +122,7 @@ public class Register extends AppCompatActivity {
     }
 
     private void abrirTelaDashboard(){
-        Intent intent = new Intent(Register.this, MainBordeless.class);
+        Intent intent = new Intent(Register.this, MainActivity.class);
         startActivity(intent);
         finish();
     }
