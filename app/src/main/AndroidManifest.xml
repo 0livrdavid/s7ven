@@ -11,17 +11,23 @@
         android:theme="@style/Theme.S7ven">
         <activity
             android:name=".ActivityLogin.Redirect_Login_Register"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ActivityLogin.Register"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ActivityLogin.Login"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"
-            android:label="@string/title_activity_main" />
+            android:exported="true"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
