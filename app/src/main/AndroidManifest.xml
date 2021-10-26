@@ -10,24 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.S7ven">
         <activity
-            android:name=".ActivityLogin.Register"
-            android:exported="true" />
-        <activity
             android:name=".ActivityLogin.Redirect_Login_Register"
-            android:exported="true" />
+            android:exported="false" />
+        <activity
+            android:name=".ActivityLogin.Register"
+            android:exported="false" />
         <activity
             android:name=".ActivityLogin.Login"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
+            android:exported="false"
+            android:label="@string/title_activity_main" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

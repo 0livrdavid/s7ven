@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import br.com.application.s7ven.MainActivity;
 import br.com.application.s7ven.R;
 
 public class Redirect_Login_Register extends AppCompatActivity {
