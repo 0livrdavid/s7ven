@@ -24,7 +24,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import br.com.application.s7ven.MainActivity;
 import br.com.application.s7ven.R;
 
-// Apenas um comentário qualquer para testar o Git
 public class Login extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
