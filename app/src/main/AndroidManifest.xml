@@ -10,12 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.S7ven">
         <activity
+            android:theme="@style/Theme.Design.NoActionBar"
             android:name=".ActivityLogin.Redirect_Login_Register"
             android:exported="true" />
         <activity
+            android:theme="@style/Theme.Design.NoActionBar"
             android:name=".ActivityLogin.Register"
             android:exported="true" />
         <activity
+            android:theme="@style/Theme.Design.NoActionBar"
             android:name=".ActivityLogin.Login"
             android:exported="true" />
         <activity
