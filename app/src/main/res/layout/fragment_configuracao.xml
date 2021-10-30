@@ -23,9 +23,15 @@
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="409dp"
+        android:id="@+id/spPeriodo"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="261dp" />
+        android:minHeight="48dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="76dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

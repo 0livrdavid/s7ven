@@ -5,4 +5,17 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_disciplinas">Disciplinas</string>
     <string name="title_configuracao">Configuração</string>
+    <string-array name="periodos">
+        <item>1ºPeriodo</item>
+        <item>2ºPeriodo</item>
+        <item>3ºPeriodo</item>
+        <item>4ºPeriodo</item>
+        <item>5ºPeriodo</item>
+        <item>6ºPeriodo</item>
+        <item>7ºPeriodo</item>
+        <item>8ºPeriodo</item>
+        <item>9ºPeriodo</item>
+        <item>10ºPeriodo</item>
+    </string-array>
 </resources>
+
