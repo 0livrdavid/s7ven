@@ -31,10 +31,12 @@ public class DisciplinasFragment extends Fragment {
         binding = FragmentDisciplinasBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        WebView browser = (WebView) findViewById(R.id.webview);
+        webview = (WebView) root.findViewById(R.id.webview);
 
         return root;
     }
+
+
 
     @Override
     public void onDestroyView() {

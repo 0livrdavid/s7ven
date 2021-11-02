@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import br.com.application.s7ven.R;
 import br.com.application.s7ven.databinding.FragmentDashboardBinding;
 
 public class DashboardFragment extends Fragment {
@@ -27,11 +28,20 @@ public class DashboardFragment extends Fragment {
         binding = FragmentDashboardBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textDashboard;
+        final TextView textView = binding.textView;
+        final TextView textView2 = binding.textView2;
+        final TextView textView3 = binding.textView3;
+
         dashboardViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
+            }
+        });
+        dashboardViewModel.getText2().observe(getViewLifecycleOwner(), new Observer<String>() {
+            @Override
+            public void onChanged(@Nullable String s) {
+                textView2.setText(s);
             }
         });
         return root;

@@ -35,13 +35,14 @@ public class ConfiguracaoFragment extends Fragment {
         binding = FragmentConfiguracaoBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textNotifications;
-        configuracaoViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+        Spinner periodos = (Spinner) root.findViewById(R.id.spPeriodo);
+        // Create an ArrayAdapter using the string array and a default spinner layout
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(), R.array.periodos, android.R.layout.simple_spinner_item);
+        // Specify the layout to use when the list of choices appears
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        // Apply the adapter to the spinner
+        periodos.setAdapter(adapter);
+
         return root;
     }
 
@@ -51,7 +52,6 @@ public class ConfiguracaoFragment extends Fragment {
         binding = null;
     }
 
-    Spinner periodos = (Spinner) findViewById(R.id.spPeriodo);
-    ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.periodos, android.R.layout.simple_dropdown_item_1line);
+
 
 }
