@@ -16,6 +16,7 @@ public class DashboardViewModel extends ViewModel {
         mText2.setValue("35");
     }
 
+
     public LiveData<String> getText() {
         return mText;
     }
