@@ -4,20 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
     android:orientation="vertical"
+    android:background="@color/set_background"
     tools:context=".fragments.configuracao.ConfiguracaoFragment">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Contexto Educacional"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
 
     <Spinner
         android:id="@+id/spPeriodo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="48dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="15dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="76dp" />
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:minWidth="380dp"
+        android:textSize="15dp"
+        android:background="@drawable/custom_button_close"
+        android:shadowColor="@color/black"
+        android:text="Sair da Conta"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 </LinearLayout>

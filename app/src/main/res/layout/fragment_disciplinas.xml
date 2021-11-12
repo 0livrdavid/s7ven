@@ -8,6 +8,20 @@
     android:orientation="vertical"
     tools:context=".fragments.disciplinas.DisciplinasFragment">
 
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="20dp"
+        android:minWidth="380dp"
+        android:textSize="15dp"
+        android:background="@drawable/custom_button_secondary"
+        android:shadowColor="@color/black"
+        android:text="Adicionar"
+        android:textColor="@android:color/white"/>
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

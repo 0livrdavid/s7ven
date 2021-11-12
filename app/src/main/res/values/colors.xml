@@ -9,6 +9,7 @@
     <color name="grey">#30BCBCBC</color>
     <color name="grey_black">#30686868</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#E92F2F</color>
 
     <color name="start">#8CB4EA</color>
     <color name="center">#1F68C8</color>
@@ -19,4 +20,7 @@
 
     <color name="primary_color">#2F7CE9</color>
     <color name="secondary_color">#1B5CAC</color>
+
+
+    <color name="set_background">#F5F9FF</color>
 </resources>

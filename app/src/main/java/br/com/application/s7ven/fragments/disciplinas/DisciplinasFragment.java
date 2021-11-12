@@ -16,6 +16,7 @@ import androidx.lifecycle.ViewModelProvider;
 import br.com.application.s7ven.R;
 
 import br.com.application.s7ven.databinding.FragmentDisciplinasBinding;
+import br.com.application.s7ven.model.Disciplinas;
 
 public class DisciplinasFragment extends Fragment {
 
@@ -34,6 +35,7 @@ public class DisciplinasFragment extends Fragment {
         webview = (WebView) root.findViewById(R.id.webview);
 
         return root;
+
     }
 
 

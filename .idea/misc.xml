@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projetos AndroidStudio/s7ven/app/src/main/res/drawable/border.xml" value="0.2805128205128205" />
+        <entry key="..\:/Projetos AndroidStudio/s7ven/app/src/main/res/drawable/custom_button_close.xml" value="0.2805128205128205" />
+        <entry key="..\:/Projetos AndroidStudio/s7ven/app/src/main/res/drawable/custom_button_register_primary.xml" value="0.2805128205128205" />
         <entry key="..\:/Projetos AndroidStudio/s7ven/app/src/main/res/drawable/ic_baseline_settings.xml" value="0.26205128205128203" />
         <entry key="..\:/Projetos AndroidStudio/s7ven/app/src/main/res/drawable/selector.xml" value="0.26205128205128203" />
         <entry key="..\:/Projetos AndroidStudio/s7ven/app/src/main/res/layout/activity_login.xml" value="0.24166666666666667" />
