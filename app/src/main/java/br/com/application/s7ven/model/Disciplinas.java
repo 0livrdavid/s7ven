@@ -39,12 +39,10 @@ public class Disciplinas {
     public void setMediaFinal(float mediaFinal) { this.mediaFinal = mediaFinal; }
 
     public float calcularMediaSemestre(float nota1, float nota2) {
-        mediaSemestre = ((nota1*2)+(nota2*3))/5;
-        return mediaSemestre;
+        return ((nota1*2)+(nota2*3))/5;
     }
 
     public float calcularMediaFinal(float mediaSemestre) {
-        mediaFinal = (250-(mediaSemestre*3))/2;
-        return mediaFinal;
+        return (250-(mediaSemestre*3))/2;
     }
 }
