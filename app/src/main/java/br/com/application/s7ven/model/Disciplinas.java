@@ -22,6 +22,7 @@ public class Disciplinas {
         this.nota2 = nota2;
     }
 
+    // METODOS: GET
     public int getId_disciplina() { return id_disciplina; }
     public String getNome() { return nome; }
     public int getPeriodo() { return periodo; }
@@ -30,6 +31,7 @@ public class Disciplinas {
     public float getMediaSemestre() { return mediaSemestre; }
     public float getMediaFinal() { return mediaFinal; }
 
+    // METODOS: SET
     public void setId_disciplina(int id_disciplina) { this.id_disciplina = id_disciplina; }
     public void setNome(String nome) { this.nome = nome; }
     public void setPeriodo(int periodo) { this.periodo = periodo; }
