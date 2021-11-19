@@ -1,33 +1,57 @@
 package br.com.application.s7ven.model;
 
 public class Users {
-    protected String email;
-    protected String senha;
-    protected String nome;
+    // ATRIBUTOS
     private int id;
-    private int registroAcademico;
-    private int cpf;
+    private String email;
+    private String senha;
+    private String login_portal;
+    private String senha_portal;
 
-    public Users(int id, int registroAcademico, String email, String senha, String nome, int cpf) {
-        this.id = id;
-        this.registroAcademico = registroAcademico;
-        this.email = email;
-        this.senha = senha;
-        this.nome = nome;
-        this.cpf = cpf;
+    // CONSTRUTOR
+    public Users(){
     }
 
-    public int getId() { return id; }
-    public int getRegistroAcademico() { return registroAcademico; }
-    public String getEmail() { return email; }
-    public String getSenha() { return senha; }
-    public String getNome() { return nome; }
-    public int getCpf() { return cpf;}
+    public Users(int id, String email, String senha, String login_portal, String senha_portal) {
+        this.id = id;
+        this.email = email;
+        this.senha = senha;
+        this.login_portal = login_portal;
+        this.senha_portal = senha_portal;
+    }
 
-    public void setId(int id) { this.id = id; }
-    public void setRegistroAcademico(int registroAcademico) { this.registroAcademico = registroAcademico; }
-    public void setEmail(String email) { this.email = email; }
-    public void setSenha(String senha) { this.senha = senha; }
-    public void setNome(String nome) { this.nome = nome; }
-    public void setCpf(int cpf) { this.cpf = cpf; }
+    // METODO: GET
+    public int getId() {
+        return id;
+    }
+    public String getEmail() {
+        return email;
+    }
+    public String getSenha() {
+        return senha;
+    }
+    public String getLogin_portal() {
+        return login_portal;
+    }
+    public String getSenha_portal() {
+        return senha_portal;
+    }
+
+
+    // METODO: SET
+    public void setId(int id) {
+        this.id = id;
+    }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+    public void setLogin_portal(String login_portal) {
+        this.login_portal = login_portal;
+    }
+    public void setSenha_portal(String senha_portal) {
+        this.senha_portal = senha_portal;
+    }
 }

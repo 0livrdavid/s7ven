@@ -1,6 +1,7 @@
 package br.com.application.s7ven.model;
 
 public class Disciplinas {
+    // ATRIBUTOS
     private int id_disciplina;
     protected String nome;
     protected int periodo;
@@ -9,6 +10,9 @@ public class Disciplinas {
     protected float mediaSemestre;
     protected float mediaFinal;
 
+    // CONSTRUTOR
+    public Disciplinas(){
+    }
 
     public Disciplinas(int id_disciplina, String nome, int periodo, float nota1, float nota2) {
         this.id_disciplina = id_disciplina;
