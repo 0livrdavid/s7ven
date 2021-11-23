@@ -25,6 +25,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 import br.com.application.s7ven.MainActivity;
 import br.com.application.s7ven.R;
+import br.com.application.s7ven.model.Users;
 
 public class Register extends AppCompatActivity {
 
@@ -83,6 +84,7 @@ public class Register extends AppCompatActivity {
                                         }
                                     }
                                 });
+
 
 
                     } else {

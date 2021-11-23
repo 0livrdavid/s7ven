@@ -2,7 +2,7 @@ package br.com.application.s7ven.model;
 
 public class Users {
     // ATRIBUTOS
-    private int id;
+    private String id;
     private String email;
     private String senha;
     private String login_portal;
@@ -12,7 +12,13 @@ public class Users {
     public Users(){
     }
 
-    public Users(int id, String email, String senha, String login_portal, String senha_portal) {
+    public Users(String id, String email, String senha) {
+        this.id = id;
+        this.email = email;
+        this.senha = senha;
+    }
+
+    public Users(String id, String email, String senha, String login_portal, String senha_portal) {
         this.id = id;
         this.email = email;
         this.senha = senha;
@@ -21,7 +27,7 @@ public class Users {
     }
 
     // METODO: GET
-    public int getId() {
+    public String getId() {
         return id;
     }
     public String getEmail() {
@@ -39,7 +45,7 @@ public class Users {
 
 
     // METODO: SET
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
     public void setEmail(String email) {
